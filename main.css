@@ -296,7 +296,7 @@ Home Content
   .making-games-background {
       content: "";
       transform: skewY(-11deg); 
-      background-image: url(assets/images/docking-in\ 2.png); 
+      background-image: url(Assets/images/docking-in\ 2.png); 
       background-attachment: fixed;
       background-repeat: no-repeat; 
       background-position: center; 
