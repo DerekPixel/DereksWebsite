@@ -245,7 +245,7 @@ Home Content
 
 
 
-.parallax-background {
+/* .parallax-background {
   width: 100%;
   background-color: #ffffff;
   background-size: 100%;
@@ -255,7 +255,7 @@ Home Content
   padding: 150px 0;
   text-align: center;
   margin-bottom: 100px;
-}
+} */
 
 
   /*
@@ -277,9 +277,36 @@ Home Content
     height: auto;
   }
 
-  .making-games-background {
+  /* .making-games-background {
     background-image: url(Assets/images/docking-in\ 2.png);
     background-position: center;
+  } */
+
+  .making-games-background {
+    transform: skewY(11deg); 
+    width: 100%; 
+    height: 100%; 
+
+    /* new styles */
+    position: relative;
+    overflow: hidden;
+    transform-origin: top left;
+  }
+
+  .making-games-background {
+      content: "";
+      transform: skewY(-11deg); 
+      background-image: url(assets/images/docking-in\ 2.png); 
+      background-attachment: fixed;
+      background-repeat: no-repeat; 
+      background-position: center; 
+      background-size: 100%;
+
+      /* new styles */
+      position: absolute;
+      transform-origin: top left;
+      width: 100%; /* something ridiculously big */
+      height: 100%; /* something ridiculously big */
   }
 
   /*
