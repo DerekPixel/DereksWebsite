@@ -149,7 +149,7 @@ Home
 .hero {
   background-color: #ffffff;
   background-image: url("Assets/images/pahrah_v3_0_cover_by_pharah_best_girl_ddcniyx.png");
-  background-size: 100%;
+  background-size: 100vh;
   background-attachment: fixed; /* background-attachment gives the parallax effect */
   background-position: right;
   background-repeat: no-repeat;
