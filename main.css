@@ -391,6 +391,8 @@ Home Content
       background-image: url(Assets/images/pharah-2.0-textless.png); 
       background-attachment: fixed;
       background-position: top left; 
+      top: 0;
+      left: 0;
 
       /* new styles */
       position: absolute;
@@ -407,6 +409,15 @@ Home Content Responsiveness
 */
 
 @media screen and (max-width: 650px) {
+
+  .hero p,
+  .hero h2 {
+    padding: 0 10px;
+  }
+
+  .column p {
+    padding: 50px 0;
+  }
 
   /*
   =================================
