@@ -376,7 +376,7 @@ Home Content
 
   .video-editing-background {
     transform: skewY(5deg); 
-    width: 100%; 
+    width: 100vw; 
     height: 300px; 
 
     /* new styles */
