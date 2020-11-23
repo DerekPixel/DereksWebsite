@@ -155,6 +155,10 @@ Home
   background-repeat: no-repeat;
   padding: 150px 0;
   text-align: center;
+  transition: height 1000000s ease;
+  -webkit-transition: height 1000000s ease;
+  -moz-transition: height 1000000s ease;
+  -o-transition: height 1000000s ease;
 }
 .hero h2 {
   color: #ffffff;
