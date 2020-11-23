@@ -155,7 +155,7 @@ Home
   background-repeat: no-repeat;
   padding: 150px 0;
   text-align: center;
-  transition: height 999999s;
+  transition: width 999999s;
 }
 .hero h2 {
   color: #ffffff;
