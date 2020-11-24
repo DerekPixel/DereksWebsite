@@ -252,6 +252,7 @@ Home Content
   background-repeat: no-repeat;
   background-size: auto;
   margin-bottom: 100px;
+  height: 100vh;
   z-index: -1;
 }
 
