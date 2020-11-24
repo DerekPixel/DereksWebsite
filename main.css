@@ -250,9 +250,9 @@ Home Content
   background-color: #ffffff;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: 100vh;
+  background-size: auto;
   margin-bottom: 100px;
-  height: 300px;
+  height: 100vh;
   z-index: -1;
 }
 
